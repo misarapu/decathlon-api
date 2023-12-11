@@ -11,7 +11,7 @@ http://localhost:8080/api/score?event={eventName}&result={result}
 * Table of Event
 
 | Event                   | Event name    | Unit  |
-| ----------------------- |:-------------:| ----: |
+| ----------------------- |:------------- | :---- |
 | 100 meters              | TRACK_100     | s     |
 | Long jump               | LONG_JUMP     | cm    |
 | Shot put                | SHOT_PUT      | m     |
