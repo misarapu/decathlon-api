@@ -8,7 +8,7 @@ Use following URL to get score of given event
 http://localhost:8080/api/score?event={eventName}&result={result}
 ```
 
-* Table of Event
+* Table of decathlon events
 
 | Event                   | Event name    | Unit  |
 | ----------------------- |:------------- | :---- |
