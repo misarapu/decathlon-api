@@ -32,7 +32,8 @@ public class Main {
                 setCommonResponseHeaders(exchange);
 
                 var queryParams = new QueryParams(exchange.getRequestURI());
-                var score = queryParams.getEvent().getScore(queryParams.getResult());
+                var result = queryParams.getResult();
+                var score = queryParams.getEvent().getScore(result);
 
                 sendJsonResponse(exchange, String.format("{\"score\": \"%s\"}", score));
             } else {
